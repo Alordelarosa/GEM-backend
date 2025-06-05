@@ -20,28 +20,28 @@ Eliminar empleados.
 
 # Guía de instalación
 
-1.Iniciar XAMPP:
+1. Iniciar XAMPP:
   Inicia el Panel de Control de XAMPP.
   Arranca los servicios de Apache y MySQL.
 
-2.Configurar la Base de Datos:
+2. Configurar la Base de Datos:
   Usando phpMyAdmin (accesible a través de XAMPP), crea la base de datos "empresa".
 
-3.Construir la Aplicación Backend:
+3. Construir la Aplicación Backend:
   Abre una terminal en la raíz del proyecto backend (GEM-BACKEND).
   Ejecuta ./mvnw clean package para construir la aplicación Spring Boot.
 
-4.Ejecutar la Aplicación Backend:
+4. Ejecutar la Aplicación Backend:
   Abre el proyecto backend en Visual Studio Code.
   Abre el panel "Spring Boot Dashboard".
   Ejecuta la aplicación PruebaTecnicaMMC desde el dashboard.
 
-5.Configurar y Ejecutar el Frontend:
+5. Configurar y Ejecutar el Frontend:
   Abre una nueva terminal y navega al directorio del proyecto frontend.
   Ejecuta npm install para instalar las dependencias del frontend.
   Ejecuta npm run dev para iniciar el servidor de desarrollo de Vite.
 
-6.Acceder a la Aplicación:
+6. Acceder a la Aplicación:
   El frontend estará disponible en el navegador en la URL proporcionada por Vite (normalmente http://localhost:5173).
   La aplicación frontend se comunicará con la API del backend que se ejecuta en http://localhost:8090.
 
